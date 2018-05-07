@@ -16,3 +16,7 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+dd{
+    padding-bottom:25px;
+}
