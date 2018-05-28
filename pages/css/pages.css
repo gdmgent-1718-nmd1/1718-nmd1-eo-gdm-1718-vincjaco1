@@ -6,10 +6,14 @@ body {
     -moz-font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #333;
+    color: black;
     line-height: 1.5em;
     padding: 25px;
-
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -18,6 +22,26 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
-dd{
-    padding-bottom:25px;
+h1 {
+   font-family: Bookman Old Style, serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.titelkader {
+    background-color: hsla(36, 63%, 64%, 1);
+    padding: inherit;
+    border-radius: 15%;
+}
+
+.intro {
+    width: 800px;
 }
