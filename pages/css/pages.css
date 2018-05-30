@@ -45,3 +45,11 @@ h3{
 .intro {
     width: 800px;
 }
+
+.bookman {
+    font-family: Bookman Old Style, serif;
+}
+
+.frutiger {
+    font-family: Frutiger LT Std, sans-serif;
+}
