@@ -8,16 +8,121 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/pages.css">
 </head>
+
 <body>
     <h1 class="titelkader">Digital Styleguide</h1>
+
     <div class="container1">
         <p>Welkom in mijn stijlgids! Neem gerust een kijkje tussen de gebruikte stijlelementen.</p>
     </div>
+
     <h2>Logo</h2>
-    <img src="images/Logo.png" alt="Logo metal bompa madness" width="500" height="500" title="Dit is het logo van mijn fictieve band Metal Bompa Madness"/>
+    <img class="icon" class="logo" src="images/Logo.png" alt="Logo metal bompa madness" width="500px" height="500px" title="Dit is het logo van mijn fictieve band Metal Bompa Madness" type="button"/>
+
     <h2>Typografie</h2>
     <p class="bookman">Bookman Old Style</p>
     <p class="frutiger">Deze tekst staat in Frutiger LT Std</p>
-    <h2></h2>
+
+    <h2>Icons</h2>
+    <div class="container2">
+    <img class="icon" src="icons/Facebook.png" alt="Facebook button" width="50px" height="50px" title="Klik om facebook te openen" type="button"/>
+    <img class="icon" src="icons/Spotify.png" alt="Spotify button" width="50px" height="50px" title="Klik om spotify te openen" type="button"/>
+    <img class="icon" src="icons/Youtube.png" alt="Youtube button" width="60px" height="50px" title="Klik om youtube te openen" type="button"/>
+    <img class="icon" src="icons/Soundcloud.png" alt="Soundcloud button" width="75px" height="50px" title="Klik om soundcloud te openen" type="button"/>
+    <img class="icon" src="icons/Twitter.png" alt="Twitter button" width="50px" height="50px" title="Klik om twitter te openen" type="button"/>
+    </div>
+    
+    <h2>Buttons</h2>
+    <div class="container2">
+    <img class="icon" src="icons/Play.png" alt="Play button" width="50px" height="50px" title="Klik om af te spelen" type="button"/>
+    <img class="icon" src="icons/Play_Single.png" alt="Play single button" width="50px" height="50px" title="Klik om single af te spelen" type="button"/>
+    <img class="icon" src="icons/Open_Album.png" alt="Open album button" width="50px" height="70px" title="Klik om album te openen" type="button"/>
+    <img class="icon" src="icons/To_Top.png" alt="To top button" width="50px" height="50px" title="Klik om naar boven te gaan" type="button"/>
+    <button class="button">verstuur</button>
+    <button class="button">bestel</button>
+    <button class="button">bevestig</button>
+    <button class="button">tickets</button>
+    <button class="button">koop</button>
+    <img class="icon" src="icons/Annuleer.png" alt="Annulate button" width="35px" height="35px" title="Klik om te annuleren" type="button"/>
+    <button class="button2">klik hier voor print</button>
+    <button class="button2">afrekenen</button>
+    </div>
+
+    <h2>wheel spinning</h2>
+    <a href="http://wheelnavjs.softwaretailoring.net/">link wheel</a>
+    <img class="image" src="images\wheelnav.datetime.png" alt="Kies datum" width="200px" height="200px" title="Klik om datum te kiezen" type="button"/>
+
+    <h2>Tabbladen boven</h2>
+    <div class="tabblad1">
+        <button class="tab">Nieuws</button>
+        <button class="tab">Agenda</button>
+        <button class="tab">Band</button>
+        <button class="tab">Muziek</button>
+        <button class="tab">Fans</button>
+        <button class="tab">Contact</button>
+        <button class="tab">Winkel</button>
+    </div>
+
+    <h2>Tabbladen rechts</h2>
+    <div class="tabblad2">
+        <button class="tab2">Home</button>
+        <button class="tab2">Tickets</button>
+        <button class="tab2">Muziek</button>
+        <button class="tab2">Subscribe</button>
+        <button class="tab2">Winkel</button>
+    </div>
+
+    <h2>Kleuren</h2>
+    <div class="kleur">
+        <div class="kleur1">hsla(36, 63%, 64%, 1)</div>
+        <div class="kleur2">#87CD23</div>
+        <div class="kleur3">#FF3714</div>
+        <div class="kleur4">#FF9A00</div>
+        <div class="kleur5">#008FFF</div>
+    </div>
+
+    <h2>Formulier</h2>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname" placeholder="Uw voornaam hier">
+
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="Uw achternaam hier">
+
+    <label for="straat+nr">Straat + nr</label>
+    <input type="text" id="adres" name="adres" placeholder="Uw straat en straatnr hier">
+
+    <label for="gemeente">Gemeente</label>
+    <select id="gemeente" name="gemeente">
+      <option value="aalst">Aalst</option>
+      <option value="gent">Gent</option>
+      <option value="kortrijk">Kortrijk</option>
+      <option value="affligem">Affligem</option>
+      <option value="antwerpen">Antwerpen</option>
+      <option value="brugge">Brugge</option>
+      <option value="hasselt">Hasselt</option>
+      <option value="waregem">Waregem</option>
+
+    <label for="postcode">Postcode</label>
+    <input type="text" id="postcode" name="postcode" placeholder="Uw postcode hier">
+    
+    <label for="telefoon">Tel</label>
+    <input type="text" id="telefoon" name="telefoon" placeholder="Uw telefoonnummer hier">
+
+    <label for="e-mail">E-mail</label>
+    <input type="text" id="e-mail" name="e-mail" placeholder="Uw e-mailadres hier">
+
+    <label for="rekeningnummer">Rekeningnummer</label>
+    <input type="text" id="rekeningnummer" name="rekeningnummer" placeholder="Uw rekeningnummer hier">
+
+    </select>
+  </form>
+</div>
+
+<div class="topnav">
+    <input type="text" placeholder="Search..">
+  </div>
 </body>
 </html>
